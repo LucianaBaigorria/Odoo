@@ -1,0 +1,17 @@
+<?xml version="1.0"  ?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="inscripcion_form_view">
+            <field name="name">Inscripción Form</field>
+            <field name="model">inscripcion</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="alumno"/>
+                        <field name="programa"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

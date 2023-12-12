@@ -1,0 +1,17 @@
+<?xml version="1.0"  ?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="programa_form_view">
+            <field name="name">Programa Form</field>
+            <field name="model">programa</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="nombre"/>
+                        <field name="descripcion"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>
